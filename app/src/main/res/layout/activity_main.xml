@@ -7,52 +7,52 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_music"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="music"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        android:text="@string/btn_music"
+        app:layout_constraintBottom_toTopOf="@+id/btn_favourites"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toEndOf="@+id/btn_events"
+        app:layout_constraintTop_toBottomOf="@+id/btn_movies" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_movies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Movies"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:text="@string/btn_movies"
+        app:layout_constraintBottom_toTopOf="@+id/btn_events"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_events"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Events"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        android:text="@string/btn_events"
+        app:layout_constraintBottom_toTopOf="@+id/btn_favourites"
+        app:layout_constraintEnd_toStartOf="@+id/btn_music"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_movies" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_favourites"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Favourites"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:text="@string/btn_favourites"
+        app:layout_constraintBottom_toTopOf="@+id/btn_planner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_music" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_planner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Planner"
+        android:text="@string/btn_planner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_favourites" />
 </androidx.constraintlayout.widget.ConstraintLayout>

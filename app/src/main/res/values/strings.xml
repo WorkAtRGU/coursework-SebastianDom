@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">MediaPlanner</string>
+
+    <string name="btn_music">Music</string>
+    <string name="btn_movies">Movies</string>
+    <string name="btn_events">Events</string>
+    <string name="btn_favourites">Favourites</string>
+    <string name="btn_planner">Planner</string>
+
+    <string name="et_search">Search</string>
+    <string name="tv_events">Events</string>
+    <string name="iv_event_image">Event Image</string>
+    <string name="iv_planner_image">Event Image</string>
+    <string name="iv_favourites_image">Event Image</string>
+    <string name="btn_home">Home</string>
+    <string name="tv_event_name">Event Name</string>
+    <string name="tv_location_event">Location</string>
+    <string name="tv_time_event">Time of the event</string>
+    <string name="tv_performers">Performers</string>
+
+
+    <string name="tv_movies">Movies</string>
+    <string name="iv_movie_image">Movie Image</string>
+    <string name="tv_movie_name">Movie Name</string>
+    <string name="tv_director">Director</string>
+    <string name="tv_runtime">Runtime</string>
+    <string name="tv_actors">Actors</string>
+
+    <string name="tv_music">Music</string>
+    <string name="iv_album_image">Album Image</string>
+    <string name="tv_song_name">Song Name</string>
+    <string name="tv_album_name">Album Name</string>
+    <string name="tv_release_date">Release Date</string>
+    <string name="tv_artist">Artist</string>
+
+    <string name="tv_favourites">Favourites</string>
+
+
+    <string name="tv_planner">Saved as planned</string>
 </resources>
