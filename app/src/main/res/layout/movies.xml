@@ -109,6 +109,7 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/tv_movies"
         app:layout_constraintBottom_toTopOf="@+id/et_searchbar"
         app:layout_constraintEnd_toEndOf="parent"

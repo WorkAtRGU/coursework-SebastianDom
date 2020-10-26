@@ -110,7 +110,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="3dp"
         android:text="@string/tv_events"
         app:layout_constraintBottom_toTopOf="@+id/et_searchbar"
         app:layout_constraintEnd_toEndOf="parent"
